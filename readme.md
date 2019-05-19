@@ -1,4 +1,4 @@
-index.html page has the registration form.
+index.html page has the registration form for applicants.
 
 mail.php has the code to send mails to the registered users.
 NOTE: userid and password in mail.php should be specified first inorder to send mails, as those values were left empty.
