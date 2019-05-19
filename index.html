@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IMUN</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<style type="text/css">
+		nav{
+			background-color: #172337 !important;
+			
+			width: 100%;
+			height: 67px;
+		}
+		
+		.navbar-brand{
+			left: 170px;
+			position: relative;
+
+		}
+		
+		.navbar-brand>p{
+			font-size: 93%;
+			float: left;
+			margin-left: 335%;
+			margin-top: 25px;
+		}
+		
+		.navbar-brand>p{
+			color: white !important;
+		}
+		#main{
+			background-color: #00000013;
+			padding: 100px;
+			height: 500px;
+		}
+		#main>form{
+			margin-left: 400px;
+		}
+		#main>form>input[type="button"]{
+			background-color: #090f18;
+			outline: transparent;
+			color: white;
+		}
+		#main>form>input{
+			width: 300px;
+			margin: 10px;
+		}
+		footer{
+			height: 155px;
+			background-color: #172337;
+			padding-top: 50px;
+		}
+		footer>h2{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">
+    <p>International
+    <small> <br>Model United Nations</small></p>
+  </a>
+</nav>
+
+<div id="main">
+	<form method="post">
+		<label for="uname">Name </label>&ensp; &nbsp;
+		<input type="text" id="uname" name="uname"><br>
+		<label for="email">Email</label> &ensp; &nbsp; 
+		<input type="email" id="email" name="email"><br>
+		<label for="phone">Phone</label>&ensp; &nbsp;
+		<input type="text" id="phone" name="phone"><br>
+		<label for="dob">Birthday</label> &nbsp; 
+		<input type="date" id="dob" name="dob"><br>
+		<label for="gender">Gender</label> &ensp; &ensp; 
+		<select name="gender" id="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="others">Others</option>
+		</select><br> &ensp; &ensp; &ensp; &ensp; &ensp; &nbsp;
+		<input type="button" id="register" name="submit" value="register">
+	</form>
+</div>
+<footer>
+	<center><h2></h2></center>
+</footer>
+<script src="dashboard/js/jquery.min.js"></script>
+<script src="dashboard/js/popper.js"></script>
+<script src="dashboard/js/bootstrap.js"></script>
+<script type="text/javascript" src="dashboard/js/script.js"></script>
+</body>
+</html>
